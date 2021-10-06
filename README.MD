@@ -3,6 +3,7 @@ How to run code
 - Code should automatically run in the browser. To edit code, click the "Fork" button.
 
 ### Process
+
 I used React because I am most familiar with the framework and prefer its flexibility and modularization. I choose typescript over javascript because typescript provides better support for debugging and error handling. Additionally, for CSS, I used styled-components because it makes CSS more modular and easy to read. I use the styled-react-module package to be able to easily create a module for the "Add Member" functionality.
 
 Given the time constraints, I stuck with the basic design aesthetic of the wireframe for this version. I looked into incorporating a pre-built design system like uswds but decided to build out a basic design system instead. I structured my code into 4 folders containing 7 files.
@@ -12,7 +13,12 @@ Given the time constraints, I stuck with the basic design aesthetic of the wiref
 - components - components that store their own state or logic.
 - styles - design system and global styles
 
-This seperates the data, styles, and functional components into seperate folders for easier organization. Given more time, I would finish 
+This seperates the data, styles, and functional components into seperate folders for easier organization.
+
+Questions for Designer
+
+- What fonts and font sizes do they use?
+- Where does this fit within the user flow?
 
 ### Removing Household Member
 

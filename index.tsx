@@ -5,9 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import { ModalProvider } from 'styled-react-modal';
 import HomePage from './containers/home_page';
 import './styles/styles.css';
-
-
-import uuid from 'react-uuid'
+import uuid from 'react-uuid';
 
 function App() {
   console.log(uuid());
